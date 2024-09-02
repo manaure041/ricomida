@@ -1,0 +1,161 @@
+body {
+    font-family: "Cabin", sans-serif;
+}
+
+#suscribete {
+    background-color: #DC3545;
+    text-align: center;
+    color: #ffffff;
+    padding: 150px 0;
+}
+
+.navbar {
+    background-color: #373A3C;
+
+}
+
+.navbar p {
+    font-family: "Lobster", sans-serif;
+    font-size: 37px;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #373A3C;
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-size: 37px;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    padding: 20px 0;
+}
+
+#principal {
+    padding: 20px 180px;
+
+}
+
+.carousel-inner {
+    border-bottom: 2px solid black;
+}
+
+#principal h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#pricipal h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.carousel-inner img {
+    margin: 50px 5px;
+}
+
+#parrafos {
+    padding: 0 260px;
+    margin: 20px 0 80px 0;
+
+
+}
+
+#parrafos .titulo {
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+
+}
+
+#suscribete p {
+    font-family: "Cabin", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#suscribete .spam1 {
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+#suscribete .spam2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Lobster", sans-serif;
+
+}
+
+footer {
+    padding: 10px 0;
+}
+
+#tarjetas h2 {
+    text-align: center;
+}
+
+.trabajos {
+    padding: 15px 0 0 210px;
+    margin: 80px 0;
+}
+
+#parrafos .row {
+    border-bottom: 2px solid black;
+}
+
+@media (max-width:768px) {
+    #carouselExampleDark {
+        display: none;
+    }
+
+    #parrafos {
+        padding: 10px 10px;
+    }
+
+    #principal {
+        padding: 10px 40px;
+
+    }
+
+    .trabajos {
+        padding: 10px 10px;
+        margin: 10px 0;
+    }
+
+    #principal img {
+        max-width: 100%;
+    }
+
+    #principal {
+        text-align: center;
+        margin: 20px 40px;
+        padding: 10px 10px;
+        border-top: 2px solid black;
+    }
+
+    #principal h1 {
+        font-size: 25px;
+    }
+
+    #principal h3 {
+        font-size: 16px;
+    }
+
+    #suscribete p {
+        font-size: 30px;
+
+    }
+
+    #suscribete .spam1,
+    .spam2 {
+        font-size: 20px;
+
+
+    }
+
+    #tarjetas .card {
+        margin: 10px 0;
+    }
+}
